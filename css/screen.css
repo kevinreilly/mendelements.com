@@ -1,0 +1,230 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../.gems/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 23, ../scss/screen.scss */
+body {
+  background: #333;
+  color: #fff;
+  font-family: Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 30, ../scss/screen.scss */
+p {
+  margin: 0;
+  font: inherit;
+}
+
+/* line 35, ../scss/screen.scss */
+.radioactive {
+  margin-top: 50px;
+}
+/* line 37, ../scss/screen.scss */
+.radioactive + .radioactive {
+  margin-top: 0;
+}
+/* line 40, ../scss/screen.scss */
+.radioactive .element {
+  float: right;
+}
+
+/* line 45, ../scss/screen.scss */
+.element {
+  width: 5.55556%;
+  min-height: 1px;
+  border: 1px solid #333;
+  float: left;
+  text-align: center;
+  overflow: hidden;
+  background: #FFB300;
+  font-size: 1vw;
+  cursor: pointer;
+  -moz-transition: 200ms;
+  -o-transition: 200ms;
+  -webkit-transition: 200ms;
+  transition: 200ms;
+  font-weight: 400;
+}
+/* line 57, ../scss/screen.scss */
+.element p {
+  display: inline-block;
+  padding: 0 4px;
+}
+/* line 61, ../scss/screen.scss */
+.element p:first-of-type {
+  padding-top: 4px;
+}
+/* line 64, ../scss/screen.scss */
+.element p:last-of-type {
+  padding-bottom: 4px;
+}
+/* line 67, ../scss/screen.scss */
+.element .symbol {
+  font-size: 2.6vw;
+  font-weight: 100;
+  margin-bottom: 3px;
+}
+/* line 72, ../scss/screen.scss */
+.element .chemical {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: .9vw;
+}
+/* line 76, ../scss/screen.scss */
+.element .mass {
+  font-size: .9vw;
+}
+/* line 79, ../scss/screen.scss */
+.element.elementRange {
+  background: none;
+}
+/* line 82, ../scss/screen.scss */
+.element .range {
+  line-height: 5.5vw;
+  cursor: default;
+}
+/* line 86, ../scss/screen.scss */
+.element.spacer {
+  visibility: hidden;
+}
+/* line 102, ../scss/screen.scss */
+.element.transition {
+  background: #009688;
+}
+/* line 102, ../scss/screen.scss */
+.element.basic {
+  background: #E91E63;
+}
+/* line 102, ../scss/screen.scss */
+.element.alkali {
+  background: #2196F3;
+}
+/* line 102, ../scss/screen.scss */
+.element.alkaline {
+  background: #F44336;
+}
+/* line 102, ../scss/screen.scss */
+.element.metalloid {
+  background: #4CAF50;
+}
+/* line 102, ../scss/screen.scss */
+.element.nonmetal {
+  background: #FF5722;
+}
+/* line 102, ../scss/screen.scss */
+.element.halogen {
+  background: #3F51B5;
+}
+/* line 102, ../scss/screen.scss */
+.element.noble {
+  background: #9C27B0;
+}
+/* line 102, ../scss/screen.scss */
+.element.lanthanoid {
+  background: #607D8B;
+}
+/* line 102, ../scss/screen.scss */
+.element.actinoid {
+  background: #795548;
+}
+@media (min-width: 768px) {
+  /* line 107, ../scss/screen.scss */
+  .element:hover {
+    background: #fff;
+    color: #333;
+  }
+}
+/* line 113, ../scss/screen.scss */
+.element.selected {
+  background: #fff;
+  color: #333;
+}
+/* line 118, ../scss/screen.scss */
+.element.elementRange:hover, .element.elementRange:hover {
+  background: transparent;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  /* line 45, ../scss/screen.scss */
+  .element {
+    border-width: .5px;
+  }
+  /* line 125, ../scss/screen.scss */
+  .element p {
+    padding: 0 1px;
+  }
+  /* line 128, ../scss/screen.scss */
+  .element p:first-of-type {
+    padding-top: 1px;
+  }
+  /* line 131, ../scss/screen.scss */
+  .element p:last-of-type {
+    padding-bottom: 1px;
+  }
+}

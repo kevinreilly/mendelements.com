@@ -1,0 +1,212 @@
+.site-wrapper {
+    width:1400px;
+    margin:0 auto;
+}
+
+.table {
+    width:1260px;
+    height:595px;
+    margin:0 auto;
+}
+
+.nuclear{
+    width:1050px;
+    height:170px;
+    margin:85px 0 0 210px;
+}
+
+.hydrogen:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.hydrogen {
+    height:80px;
+    width:65px;
+    background:#6cbff9;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.other:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.other {
+    height:80px;
+    width:65px;
+    background:#6cbff9;
+    overflow:hidden;
+    float:right;
+    margin:0 5px 5px 0;
+}
+
+.noble:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.noble {
+    height:80px;
+    width:65px;
+    background:#f96ce3;
+    overflow:hidden;
+    float:right;
+    margin:0 5px 5px 0;
+}
+
+.alkali:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.alkali {
+    height:80px;
+    width:65px;
+    background:#6cf997;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.alkaline:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.alkaline {
+    height:80px;
+    width:65px;
+    background:#f9f16c;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.halogens:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.halogens {
+    height:80px;
+    width:65px;
+    background:#ae6cf9;
+    overflow:hidden;
+    float:right;
+    margin:0 5px 5px 0;
+}
+
+.metalloids:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.metalloids {
+    height:80px;
+    width:65px;
+    background:#f9b86c;
+    overflow:hidden;
+    float:right;
+    margin:0 5px 5px 0;
+}
+
+.post:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.post {
+    height:80px;
+    width:65px;
+    background:#6c6cf9;
+    overflow:hidden;
+    float:right;
+    margin:0 5px 5px 0;
+}
+
+.trans:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.trans {
+    height:80px;
+    width:65px;
+    background:#f96c6c;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.lanth:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.lanth {
+    height:80px;
+    width:65px;
+    background:#aef96c;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+.actin:hover {
+    opacity:0.7;
+    filter:alpha(opacity=70); /* For IE8 and earlier */
+    overflow:hidden;
+}
+
+.actin {
+    height:80px;
+    width:65px;
+    background:#6cf9f4;
+    overflow:hidden;
+    float:left;
+    margin:0 5px 5px 0;
+}
+
+h2 {
+    font-family:'League Gothic';
+    margin:5px 0 -6px 0;
+    font-size:45px;
+    text-align:center;
+    color:#fff;
+}
+
+h3 {
+    font-family:'League Gothic';
+    margin:1px 0 0 1px;
+    float:left;
+    color:#fff;
+}
+
+.clear {
+    clear:both;
+}
+
+h3 {
+    bottom:0px;
+}
+
+.ads {
+    height: 250px;
+    width: 495px;
+    position: absolute;
+    left: 333px;
+    display:none;
+}

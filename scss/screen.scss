@@ -1,0 +1,135 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass";
+
+$ptoeGroups: 18;
+
+$red: #F44336;
+$pink: #E91E63;
+$purple: #9C27B0;
+$deepPurple: #673AB7;
+$indigo: #3F51B5;
+$blue: #2196F3;
+$teal: #009688;
+$green: #4CAF50;
+$deepOrange: #FF5722;
+$brown: #795548;
+$blueGrey: #607D8B;
+
+body {
+	background:#333;
+	color:#fff;
+	font-family:Ubuntu, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight:300;
+	-webkit-font-smoothing:antialiased;
+}
+p {
+	margin:0;
+	font:inherit;
+}
+
+.radioactive {
+	margin-top:50px;
+	+ .radioactive {
+		margin-top:0;
+	}
+	.element {
+		float:right;
+	}
+}
+
+.element {
+	width:100% / $ptoeGroups;
+	min-height:1px;
+	border:1px solid #333;
+	float:left;
+	text-align:center;
+	overflow:hidden;
+	background:#FFB300;
+	font-size:1vw;
+	cursor:pointer;
+	@include transition(200ms);
+	font-weight:400;
+	p {
+		display:inline-block;
+		padding:0 4px;
+	}
+	p:first-of-type {
+		padding-top:4px;
+	}
+	p:last-of-type {
+		padding-bottom:4px;
+	}
+	.symbol {
+		font-size:2.6vw;
+		font-weight:100;
+		margin-bottom:3px;
+	}
+	.chemical {
+		font-family:'Roboto Condensed', sans-serif;
+		font-size:.9vw;
+	}
+	.mass {
+		font-size:.9vw;
+	}
+	&.elementRange {
+		background:none;
+	}
+	.range {
+		line-height:5.5vw;
+		cursor:default;
+	}
+	&.spacer {
+		visibility:hidden;
+	}
+	$elementGroups: (
+		transition:$teal,
+		basic:$pink,
+		alkali:$blue,
+		alkaline:$red,
+		metalloid:$green,
+		nonmetal:$deepOrange,
+		halogen:$indigo,
+		noble:$purple,
+		lanthanoid:$blueGrey,
+		actinoid:$brown
+	);
+	@each $elementGroup, $color in $elementGroups {
+		&.#{$elementGroup} {
+			background:$color;
+		}
+	}
+	@media (min-width:768px){
+		&:hover {
+			//@include transform(scale(1.1));
+			background:#fff;
+			color:#333;
+		}
+	}
+	&.selected {
+		//@include transform(scale(1.1));
+		background:#fff;
+		color:#333;
+	}
+	&.elementRange:hover, &.elementRange:hover {
+		//@include transform(scale(1));
+		background:transparent;
+		color:#fff;
+	}
+	@media (max-width:768px){
+		border-width:.5px;
+		p {
+			padding:0 1px;
+		}
+		p:first-of-type {
+			padding-top:1px;
+		}
+		p:last-of-type {
+			padding-bottom:1px;
+		}
+	}
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <title>Untitled Document</title>
+        <script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.8.21/jquery-ui.min.js"></script>
+        
+        <script src="jquery.ui.touch-punch.min.js"></script>
+        
+        <style type="text/css">
+			body {
+				width:100%;
+				font-size:100%;
+				padding:10%;
+				overflow:hidden;
+			}
+			.wrapper {
+				margin:0;
+			}
+			.box .face {
+				width:50px;
+				height:50px;
+				position:absolute;
+			}
+			.box .top {
+				background:#000;
+				-webkit-transform: rotateX(45deg) rotateZ(45deg);
+				-webkit-transform-style: preserve-3d;
+			}
+			.box .left {
+				background:#333;
+				-webkit-transform: rotateX(45deg) rotateZ(45deg) skewX(45deg) skewY(0deg);
+				-webkit-transform-style: preserve-3d;
+			}
+			.perspective {
+				background-color: hsla(0,0%,0%,.1);
+				background-image: -webkit-linear-gradient(hsla(0,0%,0%,.1) 2.5%, transparent 2.5%, transparent 97.5%, hsla(0,0%,0%,.1) 97.5%),
+								  -webkit-linear-gradient(left, hsla(0,0%,0%,.1) 2.5%, transparent 2.5%, transparent 97.5%, hsla(0,0%,0%,.1) 97.5%);
+				background-size: 50px 50px;
+				box-shadow: 0 0 0 .1em hsla(0,0%,0%,.2);
+				width:500px;
+				height:500px;
+				margin:0;
+				
+				/*left: 50%;
+				margin: -7.5em;
+				padding: 300px;
+				position: absolute;
+				top: 50%;*/
+				
+				-webkit-transform: rotateX(45deg) rotateZ(45deg);
+				-webkit-transform-style: preserve-3d;
+			}
+			
+		</style>
+        
+    </head>
+    
+    <body>
+    
+    	<div class="wrapper">
+        
+        	<div class="perspective"></div>
+        
+        	<div class="box">
+            	<div class="face top"></div>
+                <div class="face left"></div>
+            </div>
+            
+        </div>
+        
+    	<script>$('.box').draggable({grid:["50","50"]});</script>
+    	
+        
+    </body>
+</html>

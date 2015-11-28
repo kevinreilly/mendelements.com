@@ -1,0 +1,37 @@
+
+<?xml version='1.0'?>
+<rss version="2.0">
+<channel>
+<title>The Rainforest</title>
+<description>L.A.M.P. resources for webscripting students!</description>
+<link>http://lampbusters.com/</link>
+<copyright>Copyright 2006, Phil Waclawski</copyright>
+
+<item>
+<title>Talked about RSS Feeds!</title>
+<description>Tried to explain how RSS feeds can be really cool!
+and in your webpage &lt;head&gt; you should put
+&lt;link href="feed.xml" rel="alternate"
+type="application/rss+xml" title="Lampbusters RSS Feed" /&gt;</description>
+<link>http://feedity.com/ </link>
+<pubDate>20 Apr 2010 19:18:00 MST</pubDate>
+</item>
+
+<item>
+<title>New RSS Feed Added today!</title>
+<description>Added in a new RSS feed in a way that causes an .xml file to be run
+as a php file by abusing the .htaccess file</description>
+<link>http://lampbusters.com/~coperni/index.php</link>
+<pubDate> 07 Nov 2006 17:20:00 MST</pubDate>
+</item>
+
+<item>
+<title>And we may have gotten XSL to work!</title>
+<description>Who would have thought XML/XSL would be such a pain in the
+gluteous maximus?</description>
+<link>http://www.php.net</link>
+<pubDate> 07 Nov 2006 17:40:00 MST</pubDate>
+</item>
+
+</channel>
+</rss>

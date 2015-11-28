@@ -1,0 +1,52 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html ng-app="websiteApp">
+    <head>
+        <!-- SCROLLS -->
+        <!-- load bootstrap and fontawesome via CDN -->
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.0/css/font-awesome.css" />
+
+        <!-- SPELLS -->
+        <!-- load angular and angular route via CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body ng-controller="mainController">
+
+        <!-- HEADER AND NAVBAR -->
+        <header>
+            <nav class="navbar navbar-inverse navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" ng-init="isCollapsed = true" ng-click="isCollapsed = !isCollapsed">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Project name</a>
+                    </div>
+                    <div class="navbar-collapse" ng-class="{collapse: isCollapsed}">
+                        <ul class="nav navbar-nav">
+                            <li><a ng-click="isCollapsed = !isCollapsed" href="#">Home</a></li>
+                            <li><a ng-click="isCollapsed = !isCollapsed" href="#about">About</a></li>
+                            <li><a ng-click="isCollapsed = !isCollapsed" href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </nav>
+        </header>
+
+        <!-- MAIN CONTENT AND INJECTED VIEWS -->
+        <div id="main">
+
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view></div>
+
+        </div>
+
+    </body>
+</html>

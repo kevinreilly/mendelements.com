@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Draggable Isometric Grid Objects with Snap</title>
+        
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  		<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  		<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+                
+        <style type="text/css">
+			body {
+				font-size: 100%;
+			}
+			.perspective {
+				background-color: hsla(0,0%,0%,.1);
+				background-image: -webkit-linear-gradient(hsla(0,0%,0%,.1) 2.5%, transparent 2.5%, transparent 97.5%, hsla(0,0%,0%,.1) 97.5%),
+								  -webkit-linear-gradient(left, hsla(0,0%,0%,.1) 2.5%, transparent 2.5%, transparent 97.5%, hsla(0,0%,0%,.1) 97.5%);
+				background-size: 3em 3em;
+				box-shadow: 0 0 0 .1em hsla(0,0%,0%,.2);
+				height: 9em;
+				left: 50%;
+				margin: -7.5em;
+				padding: 3em;
+				position: absolute;
+				top: 50%;
+				width: 9em;
+				-webkit-transform: rotateX(45deg) rotateZ(45deg);
+				-webkit-transform-style: preserve-3d;
+			}
+			.draggable {
+				width: 90px;
+				height: 80px;
+				padding: 5px;
+				float: left;
+				margin: 0 10px 10px 0;
+				font-size: .9em;
+			}
+			.cube,
+			.cube:after,
+			.cube:before {
+				box-shadow: inset 0 0 0 .25em hsla(0,0%,0%,.1);
+				content: '';
+				float: left;
+				height: 3em;
+				position: absolute;
+				width: 3em;
+			}
+			.cube {
+				background-color: #f66;
+				position: relative;
+				-webkit-transform: translateZ(3em);
+				-webkit-transform-style: preserve-3d;
+				-webkit-transition: .25s;
+			}
+			/* Left */
+			.cube:after {
+				background-color: #e55;
+				-webkit-transform: rotateX(-90deg) translateY(3em);
+				-webkit-transform-origin: 100% 100%;
+			}
+			/* Right */
+			.cube:before {
+				background-color: #d44;
+				-webkit-transform: rotateY(90deg) translateX(3em);
+				-webkit-transform-origin: 100% 0;
+			}
+			
+		</style>
+        
+        <script>
+			$(function() {
+			$( "#draggable5" ).draggable({ grid: [ 80, 80 ] });
+			});
+		</script>
+        
+    </head>
+    
+    <body>
+    	
+        <div id="snaptarget" class="perspective ui-widget-header">
+        	<div id="draggable5" class="draggable ui-widget-content cube"></div>
+        </div>
+        
+        
+    	
+    </body>
+</html>

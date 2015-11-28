@@ -1,0 +1,39 @@
+@charset "UTF-8";
+/* CSS Document */
+
+form {
+	width:100%;
+	font-size:1.2em;
+	font-family:Helvetica,Arial,sans-serif;
+}
+
+input[type="text"], input[type="email"], input[type="tel"] {
+	-webkit-appearance:none;
+	width:96%;
+	font-size:1.2em;
+	padding:8px 2%;
+	margin-bottom:10px;
+	border:0;
+	font-family:Helvetica,Arial,sans-serif;
+}
+
+input[type="radio"] {
+	margin-bottom:10px;
+}
+
+input[type="submit"] {
+	-webkit-appearance: none;
+	min-width: 50%;
+	font-size: 1.2em;
+	font-family: Helvetica,Arial,sans-serif;
+	float: right;
+	background: #3bc33e;
+	border: 0;
+	padding: 10px 0;
+	cursor: pointer;
+	transition:.5s;
+}
+
+input[type="submit"]:hover {
+	background:#27952a;
+}

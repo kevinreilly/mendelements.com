@@ -1,0 +1,15 @@
+== Changelog ==
+
+= 1.0 =
+* Initial release.
+
+= 1.1 =
+* Fixed: "Create Meme" button to re-enable after failed submission.
+* Fixed: Watermark is only shown, if meme is created.
+* Fixed: Post format for improved SEO results.
+* Added: Redirects to post, if published immediately.
+* Added: If user is not logged in, a default author is assigned.
+* Added: Form only submits, if IMAGE URL is a valid picture.
+* Added: Grayed out preview image, if log in is required.
+* Added: Improved compatibility with WordPress multisite.
+* Removed: Image caching, which caused problems with Cloudflare.

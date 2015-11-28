@@ -1,0 +1,423 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Meme Generator\n"
+"POT-Creation-Date: 2013-02-14 20:17-0600\n"
+"PO-Revision-Date: 2013-02-14 20:17-0600\n"
+"Last-Translator: Brandon Bell <contact@wpgoods.com>\n"
+"Language-Team: WP Goods <contact@wpgoods.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: meme-generator.php:51
+msgid ""
+"GD Library Error: The PHP extension GD is not properly configured on your "
+"server. As a result, Meme Generator will not function correctly. Please "
+"contact your webhost and ask them to install the GD library."
+msgstr ""
+
+#: meme-generator.php:95
+msgid "Settings"
+msgstr ""
+
+#: meme-generator.php:108
+msgid "Twitter"
+msgstr ""
+
+#: inc/admin/class.php:504
+msgid "Settings saved."
+msgstr ""
+
+#: inc/admin/class.php:585
+msgid "Save Changes"
+msgstr ""
+
+#: inc/admin/class.php:915
+msgid "Delete this image"
+msgstr ""
+
+#: inc/admin/class.php:915 inc/admin/class.php:1544
+msgid "Delete"
+msgstr ""
+
+#: inc/admin/class.php:984
+msgid "Cannot delete file. Something's wrong."
+msgstr ""
+
+#: inc/admin/class.php:1173 inc/admin/class.php:1215
+msgid "Remove"
+msgstr ""
+
+#: inc/admin/class.php:1185
+msgid "Add"
+msgstr ""
+
+#: inc/admin/class.php:1540
+msgid "Uploaded files"
+msgstr ""
+
+#: inc/admin/class.php:1551
+msgid "Upload new files"
+msgstr ""
+
+#: inc/admin/class.php:1557
+msgid "Add more files"
+msgstr ""
+
+#: inc/admin/class.php:1651 inc/admin/class.php:1671
+msgid "Select a color"
+msgstr ""
+
+#: inc/admin/options.php:28 inc/admin/options.php:37
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/options.php:29 inc/admin/options.php:45
+msgid "General Settings"
+msgstr ""
+
+#: inc/admin/options.php:38
+msgid ""
+"When you're working with new software, we understand that getting started is "
+"often the hardest part. That's why we've provided an overview of Meme "
+"Generator to help you do just that. If you have any additional questions, "
+"please feel free to contact wpgoods.com for support. Thank you!"
+msgstr ""
+
+#: inc/admin/options.php:46
+msgid "Wait for Approval"
+msgstr ""
+
+#: inc/admin/options.php:46
+msgid "Publish Immediately"
+msgstr ""
+
+#: inc/admin/options.php:46
+msgid "Submission Policy"
+msgstr ""
+
+#: inc/admin/options.php:47
+msgid ""
+"Would you like to publish user submissions immediately or wait for an "
+"administrator's approval?"
+msgstr ""
+
+#: inc/admin/options.php:48 inc/admin/options.php:50 inc/admin/options.php:52
+#: inc/admin/options.php:54
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/options.php:48 inc/admin/options.php:50 inc/admin/options.php:52
+#: inc/admin/options.php:54
+msgid "No"
+msgstr ""
+
+#: inc/admin/options.php:48
+msgid "Require Registration"
+msgstr ""
+
+#: inc/admin/options.php:49
+msgid ""
+"Do you want to require users to register and login before they can submit a "
+"meme?"
+msgstr ""
+
+#: inc/admin/options.php:50
+msgid "Admin Notification"
+msgstr ""
+
+#: inc/admin/options.php:51
+msgid ""
+"Would you like an email whenever a user submission is held for moderation or "
+"published immediately?"
+msgstr ""
+
+#: inc/admin/options.php:52
+msgid "User Notification"
+msgstr ""
+
+#: inc/admin/options.php:53
+msgid ""
+"Do you want to send emails to users when their submissions are published?"
+msgstr ""
+
+#: inc/admin/options.php:54
+msgid "Watermark Image"
+msgstr ""
+
+#: inc/admin/options.php:55
+msgid ""
+"Is it okay for a watermark image to appear at the bottom of each meme "
+"generated?"
+msgstr ""
+
+#: inc/admin/options.php:56
+msgid "Max Image Width"
+msgstr ""
+
+#: inc/admin/options.php:56
+msgid ""
+"Enter the maximum width in pixels that are allowed for an image without "
+"being automatically resized."
+msgstr ""
+
+#: inc/admin/options.php:57
+msgid "Max Image Height"
+msgstr ""
+
+#: inc/admin/options.php:57
+msgid ""
+"Enter the maximum height in pixels that are allowed for an image without "
+"being automatically resized."
+msgstr ""
+
+#: inc/admin/options.php:63
+msgid "Customer Support"
+msgstr ""
+
+#: inc/admin/options.php:64
+msgid ""
+"Thank you for purchasing Meme Generator. I really hope you're enjoying the "
+"product. Customer support is a top priority for WP Goods. Your enquiries "
+"will receive a personal response within 48 hours (2 working days)."
+msgstr ""
+
+#: inc/admin/options.php:64
+msgid ""
+"If you need help for any reason, please feel free to contact support through "
+"the WP Goods Ticksy support system. Just sign in with your Facebook or "
+"Twitter account (or register manually) and give us a shout at"
+msgstr ""
+
+#: inc/admin/options.php:64
+msgid "Once again, thank you!"
+msgstr ""
+
+#: inc/api/class.php:76
+msgid "An Unexpected HTTP Error occurred during the API request."
+msgstr ""
+
+#: inc/api/class.php:76
+msgid "Try again"
+msgstr ""
+
+#: inc/api/class.php:81
+msgid "An unknown error occurred"
+msgstr ""
+
+#: inc/dialog/class.php:23
+msgid ""
+"We're sorry, something went wrong with your request. Please contact support "
+"for further assistance."
+msgstr ""
+
+#: inc/dialog/class.php:30 inc/shortcode/class.php:21
+msgid "Meme Generator"
+msgstr ""
+
+#: inc/dialog/class.php:48
+msgid "CREATE A MEME CHARACTER"
+msgstr ""
+
+#: inc/dialog/class.php:53
+msgid "NAME YOUR MEME:"
+msgstr ""
+
+#: inc/dialog/class.php:57
+msgid "ENTER AN IMAGE URL:"
+msgstr ""
+
+#: inc/dialog/class.php:58
+msgid "TOP TEXT:"
+msgstr ""
+
+#: inc/dialog/class.php:59
+msgid "BOTTOM TEXT:"
+msgstr ""
+
+#: inc/dialog/class.php:60
+msgid "SIZE OF TEXT:"
+msgstr ""
+
+#: inc/dialog/class.php:61
+msgid "STYLE OF TEXT:"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Heavy White Capital text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Heavy White text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "White Capital text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "White text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Heavy Black Capital text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Heavy Black text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Black Capital text"
+msgstr ""
+
+#: inc/dialog/class.php:61 inc/shortcode/class.php:32
+#: inc/shortcode/class.php:95
+msgid "Black text"
+msgstr ""
+
+#: inc/dialog/class.php:70
+msgid "Cancel"
+msgstr ""
+
+#: inc/dialog/class.php:71 inc/shortcode/class.php:72
+#: inc/shortcode/class.php:135
+msgid "Create Meme"
+msgstr ""
+
+#: inc/post/class.php:163 inc/post/class.php:228
+msgid "Meme:"
+msgstr ""
+
+#: inc/post/class.php:166 inc/post/class.php:168
+msgid "Hi,"
+msgstr ""
+
+#: inc/post/class.php:166
+msgid "A new meme has been submitted for approval."
+msgstr ""
+
+#: inc/post/class.php:166 inc/post/class.php:168 inc/post/class.php:230
+msgid "You can check it out here:"
+msgstr ""
+
+#: inc/post/class.php:168
+msgid "A new meme has been published on"
+msgstr ""
+
+#: inc/post/class.php:230
+msgid "Hi "
+msgstr ""
+
+#: inc/post/class.php:230
+msgid ","
+msgstr ""
+
+#: inc/post/class.php:230
+msgid "Your meme, \""
+msgstr ""
+
+#: inc/post/class.php:230
+msgid "\""
+msgstr ""
+
+#: inc/post/class.php:230
+msgid "has just been published on"
+msgstr ""
+
+#: inc/preview/class.php:55 inc/preview/class.php:279
+#: inc/shortcode/class.php:43 inc/shortcode/class.php:106
+msgid "Bad News"
+msgstr ""
+
+#: inc/preview/class.php:55
+msgid "The IMAGE URL is not valid. Please enter a new IMAGE URL and try again."
+msgstr ""
+
+#: inc/preview/class.php:279
+msgid ""
+"WordPress is not properly configured on your server. The upload directory "
+"path "
+msgstr ""
+
+#: inc/shortcode/class.php:30 inc/shortcode/class.php:93
+msgid "Create A Meme"
+msgstr ""
+
+#: inc/shortcode/class.php:31 inc/shortcode/class.php:94
+msgid "Text Size"
+msgstr ""
+
+#: inc/shortcode/class.php:32 inc/shortcode/class.php:95
+msgid "Text Style"
+msgstr ""
+
+#: inc/shortcode/class.php:39 inc/shortcode/class.php:41
+#: inc/shortcode/class.php:102 inc/shortcode/class.php:104
+msgid "Good News"
+msgstr ""
+
+#: inc/shortcode/class.php:39 inc/shortcode/class.php:102
+msgid "Your newly created meme is pending approval to be published on"
+msgstr ""
+
+#: inc/shortcode/class.php:41 inc/shortcode/class.php:104
+msgid "Your meme has just been published on"
+msgstr ""
+
+#: inc/shortcode/class.php:43 inc/shortcode/class.php:106
+msgid "You forgot to fill out one or more of the required fields."
+msgstr ""
+
+#: inc/shortcode/class.php:52 inc/shortcode/class.php:115
+msgid "Name Your Meme"
+msgstr ""
+
+#: inc/shortcode/class.php:54 inc/shortcode/class.php:117
+msgid "Enter An Image URL"
+msgstr ""
+
+#: inc/shortcode/class.php:56 inc/shortcode/class.php:119
+msgid "Top Text"
+msgstr ""
+
+#: inc/shortcode/class.php:57 inc/shortcode/class.php:120
+msgid "Bottom Text"
+msgstr ""
+
+#: inc/shortcode/class.php:78 inc/shortcode/class.php:141
+msgid "You must be logged in to create a meme."
+msgstr ""
+
+#: inc/shortcode/class.php:165
+msgid "(required)"
+msgstr ""
+
+#: inc/shortcode/class.php:165
+msgid "(optional)"
+msgstr ""
+
+#: inc/support/class.php:23
+msgid "Enter your license key to activate Meme Generator"
+msgstr ""
+
+#: inc/support/class.php:25
+msgid "Hint: Typically, it's your registration email address."
+msgstr ""
+
+#: inc/support/class.php:39
+msgid ""
+"We're sorry, but the license key you entered is invalid. Please try again or "
+"contact us for help."
+msgstr ""
